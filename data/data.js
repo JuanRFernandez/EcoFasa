@@ -1,8 +1,8 @@
 // Generado por `uv run ecofasa export`. No editar a mano.
 window.ECOFASA_DATA = {
- "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "generated_at_utc": "2026-09-08T14:12:10+00:00",
  "acciones": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Plan de Acción"
   },
@@ -148,7 +148,7 @@ window.ECOFASA_DATA = {
     "Plazo (año)": "2027-2030",
     "Estado": "No iniciado",
     "KPI vinculado": "Nº de árboles nativos",
-    "Recursos necesarios": "Viveros, ONG, WWF grant",
+    "Recursos necesarios": "Viveros, ONG, Patagonia International Grants / programas provinciales",
     "Costo 2026–2030 (USD)": 2700
    },
    {
@@ -440,7 +440,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "kpis": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "KPIs"
   },
@@ -581,7 +581,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Presupuesto Detalle"
   },
@@ -743,7 +743,7 @@ window.ECOFASA_DATA = {
     "Área": "2. Biodiversidad",
     "Responsable": "Antonio Tieppo",
     "Categoría presupuestaria": "Reforestación con especies nativas",
-    "Qué compra / supuesto de costo": "≈1.000 plantines (USD 1,5–2 c/u) + traslado + jornadas; postular al grant WWF en 2027.",
+    "Qué compra / supuesto de costo": "≈1.000 plantines (USD 1,5–2 c/u) + traslado + jornadas; postular a Patagonia International Grants y programas provinciales en 2027.",
     "2026": 0,
     "2027": 0,
     "2028": 1800,
@@ -1085,7 +1085,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "hoja_de_ruta": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Hoja de Ruta"
   },
@@ -1134,7 +1134,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto_categorias": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Presupuesto"
   },
@@ -1220,7 +1220,7 @@ window.ECOFASA_DATA = {
    {
     "Categoría": "Reforestación con especies nativas",
     "Acciones (IDs)": "A11",
-    "Qué financia / justificación": "≈1.000 plantines nativos (USD 1,5–2 c/u) + traslado y jornadas de plantación; objetivo: financiarlo con el grant WWF.",
+    "Qué financia / justificación": "≈1.000 plantines nativos (USD 1,5–2 c/u) + traslado y jornadas de plantación; objetivo: financiarlo con Patagonia International Grants y programas provinciales de bosque nativo.",
     "2026": 0,
     "2027": 0,
     "2028": 1800,
@@ -1297,15 +1297,15 @@ window.ECOFASA_DATA = {
   ]
  },
  "financiamiento": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Presupuesto"
   },
   "count": 4,
   "rows": [
    {
-    "Categoría": "Grant WWF Forest Restoration",
-    "Qué financia / justificación": "Reforestación nativa 2028 (línea de hasta USD 15.000) · A11",
+    "Categoría": "Patagonia International Grants",
+    "Qué financia / justificación": "Reforestación nativa 2028 · A11 (Argentina elegible, USD 5.000–20.000; estimación a confirmar, postular en 2027)",
     "Total (USD)": 5000
    },
    {
@@ -1326,7 +1326,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto_resumen": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "Presupuesto"
   },
@@ -1353,7 +1353,7 @@ window.ECOFASA_DATA = {
   }
  },
  "porque": {
-  "generated_at_utc": "2026-09-08T13:56:44+00:00",
+  "generated_at_utc": "2026-09-08T14:12:10+00:00",
   "source": {
    "tab": "El Porqué"
   },
