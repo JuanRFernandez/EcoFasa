@@ -1,0 +1,27 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "Presupuesto"
+ },
+ "values": {
+  "contingencia_pct": 0.1,
+  "subtotal_2026": 1150,
+  "subtotal_2027": 2950,
+  "subtotal_2028": 5600,
+  "subtotal_2029": 5150,
+  "subtotal_2030": 2800,
+  "subtotal_total": 17650,
+  "contingencia_2026": 115,
+  "contingencia_2027": 295,
+  "contingencia_2028": 560,
+  "contingencia_2029": 515,
+  "contingencia_2030": 280,
+  "contingencia_total": 1765,
+  "total_2026": 1265,
+  "total_2027": 3245,
+  "total_2028": 6160,
+  "total_2029": 5665,
+  "total_2030": 3080,
+  "total_plan": 19415
+ }
+}

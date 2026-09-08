@@ -1,0 +1,163 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "Presupuesto"
+ },
+ "count": 14,
+ "rows": [
+  {
+   "Categoría": "Talento universitario (PPS)",
+   "Acciones (IDs)": "A01, A26",
+   "Qué financia / justificación": "Estipendio/gastos de 1 estudiante de Ing. Ambiental por semestre: inventario de huella (2026), Guía de Centros (2027) y actualizaciones puntuales.",
+   "2026": 500,
+   "2027": 500,
+   "2028": 250,
+   "2029": 250,
+   "2030": 0,
+   "Total (USD)": 1500
+  },
+  {
+   "Categoría": "Formación del comité",
+   "Acciones (IDs)": "—",
+   "Qué financia / justificación": "(Sin uso) El curso UN CC:Learn y su certificado son gratuitos: A25 pasó a «Acciones sin costo directo».",
+   "2026": 0,
+   "2027": 0,
+   "2028": 0,
+   "2029": 0,
+   "2030": 0,
+   "Total (USD)": 0
+  },
+  {
+   "Categoría": "Educación y webinars",
+   "Acciones (IDs)": "A04, A09",
+   "Qué financia / justificación": "Plataforma de streaming, difusión y materiales; viáticos locales de disertantes para charlas de glaciares (disertantes ad honorem).",
+   "2026": 150,
+   "2027": 250,
+   "2028": 250,
+   "2029": 250,
+   "2030": 250,
+   "Total (USD)": 1150
+  },
+  {
+   "Categoría": "Comunicación y diseño",
+   "Acciones (IDs)": "A05, A27",
+   "Qué financia / justificación": "Gestión de redes y piezas gráficas; diseño y maquetación del Reporte Anual de Sostenibilidad (6–12 págs.).",
+   "2026": 300,
+   "2027": 300,
+   "2028": 300,
+   "2029": 300,
+   "2030": 300,
+   "Total (USD)": 1500
+  },
+  {
+   "Categoría": "Pilotos con clubes: carpooling y reuso",
+   "Acciones (IDs)": "A07, A13",
+   "Qué financia / justificación": "Señal ética, planillas y coordinación de carpooling; mesas de intercambio de equipo (modelo Worn Wear) en 1–2 eventos, luego red de clubes.",
+   "2026": 200,
+   "2027": 300,
+   "2028": 400,
+   "2029": 400,
+   "2030": 300,
+   "Total (USD)": 1600
+  },
+  {
+   "Categoría": "Reparación y biblioteca de equipo",
+   "Acciones (IDs)": "A14, A15",
+   "Qué financia / justificación": "Kit de herramientas, ceras y repuestos para talleres; estanterías y fichas de préstamo para la biblioteca de equipo donado.",
+   "2026": 0,
+   "2027": 300,
+   "2028": 400,
+   "2029": 300,
+   "2030": 200,
+   "Total (USD)": 1200
+  },
+  {
+   "Categoría": "Residuos y jornadas de limpieza",
+   "Acciones (IDs)": "A10, A16",
+   "Qué financia / justificación": "Bolsas, guantes y logística de jornadas con clubes; contenedores y señalética para eventos residuo cero (pico 2029, FIS Waste Handbook).",
+   "2026": 0,
+   "2027": 150,
+   "2028": 250,
+   "2029": 700,
+   "2030": 300,
+   "Total (USD)": 1400
+  },
+  {
+   "Categoría": "Reforestación con especies nativas",
+   "Acciones (IDs)": "A11",
+   "Qué financia / justificación": "≈1.000 plantines nativos (USD 1,5–2 c/u) + traslado y jornadas de plantación; objetivo: financiarlo con el grant WWF.",
+   "2026": 0,
+   "2027": 0,
+   "2028": 1800,
+   "2029": 600,
+   "2030": 300,
+   "Total (USD)": 2700
+  },
+  {
+   "Categoría": "Glaciares (IANIGLA) y Década ONU",
+   "Acciones (IDs)": "A12, A33",
+   "Qué financia / justificación": "Viáticos de campañas de monitoreo y materiales de difusión; el convenio con IANIGLA no implica honorarios.",
+   "2026": 0,
+   "2027": 0,
+   "2028": 700,
+   "2029": 300,
+   "2030": 200,
+   "Total (USD)": 1200
+  },
+  {
+   "Categoría": "HPCA en escuelas",
+   "Acciones (IDs)": "A31",
+   "Qué financia / justificación": "Viáticos de atletas a escuelas de montaña y materiales POW (Hot Planet Cool Athletes) adaptados al español; piloto 2027 y escalado.",
+   "2026": 0,
+   "2027": 800,
+   "2028": 500,
+   "2029": 500,
+   "2030": 300,
+   "Total (USD)": 2100
+  },
+  {
+   "Categoría": "Ética, safeguarding y capacitación",
+   "Acciones (IDs)": "A17, A18, A19",
+   "Qué financia / justificación": "Difusión del código de ética, herramientas del canal de denuncias y materiales de capacitación en protección de atletas (redacción legal pro bono del comité).",
+   "2026": 0,
+   "2027": 200,
+   "2028": 100,
+   "2029": 100,
+   "2030": 0,
+   "Total (USD)": 400
+  },
+  {
+   "Categoría": "Inclusión y jóvenes",
+   "Acciones (IDs)": "A21, A23",
+   "Qué financia / justificación": "Fondo semilla de acceso adaptado (equipo vía aliados, modelo POW) y becas de iniciación para jóvenes de bajos recursos (pases y clases cedidos por centros).",
+   "2026": 0,
+   "2027": 0,
+   "2028": 500,
+   "2029": 1300,
+   "2030": 500,
+   "Total (USD)": 2300
+  },
+  {
+   "Categoría": "Gobernanza y representación",
+   "Acciones (IDs)": "A02, A24, A28",
+   "Qué financia / justificación": "Gastos administrativos de constitución, materiales de reporte al marco UNFCCC y gestiones con sponsors; reuniones remotas = USD 0.",
+   "2026": 0,
+   "2027": 150,
+   "2028": 150,
+   "2029": 150,
+   "2030": 150,
+   "Total (USD)": 600
+  },
+  {
+   "Categoría": "Acciones sin costo directo",
+   "Acciones (IDs)": "A03, A06, A08, A20, A22, A25, A29, A30, A32",
+   "Qué financia / justificación": "9 acciones se ejecutan con herramientas gratuitas, gestión remota y trabajo del comité: calendario, plan de reducción, reuniones remotas, eventos culturales, equidad de género, tablero de KPIs, vínculo POW y advocacy.",
+   "2026": 0,
+   "2027": 0,
+   "2028": 0,
+   "2029": 0,
+   "2030": 0,
+   "Total (USD)": 0
+  }
+ ]
+}

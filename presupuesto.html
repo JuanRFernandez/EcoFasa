@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — Presupuesto</title>
+<meta name="description" content="Presupuesto del plan de sostenibilidad de FASA por año y por categoría, con el financiamiento previsto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="presupuesto">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Presupuesto <span data-stat="periodo"></span></div>
+      <h1>Poco dinero, bien puesto</h1>
+      <p class="lead">Cifras en USD, estimadas. El presupuesto se calcula solo desde el detalle por acción; la contingencia es un porcentaje fijo sobre el subtotal de cada año.</p>
+      <div class="stats" aria-label="Totales del plan">
+        <div class="stat"><div class="n" data-stat="total_plan"></div><div class="l">total del plan, contingencia incluida</div></div>
+        <div class="stat"><div class="n" data-stat="subtotal_total"></div><div class="l">subtotal de las acciones</div></div>
+        <div class="stat"><div class="n" data-stat="contingencia_pct"></div><div class="l">de contingencia sobre el subtotal anual (<span data-stat="contingencia_total"></span>)</div></div>
+        <div class="stat"><div class="n" data-stat="partida2026"></div><div class="l">partida semilla <span data-stat="anio0"></span></div></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-anio">
+      <h2 id="h-anio">Por año</h2>
+      <div class="table-wrap" id="porAnio"></div>
+    </section>
+
+    <section aria-labelledby="h-cat">
+      <h2 id="h-cat">Por categoría</h2>
+      <p class="muted small">Cada categoría agrupa acciones (IDs). Las categorías con pico (reforestación, glaciares, inclusión) arrancan cuando hay grants o sponsors confirmados.</p>
+      <div class="table-wrap" id="porCategoria"></div>
+    </section>
+
+    <section aria-labelledby="h-fin">
+      <h2 id="h-fin">Financiamiento previsto</h2>
+      <p class="muted small">Fuentes a confirmar: el comité las revisa a medida que postula. Si los grants no se concretan, las acciones de mayor costo se reprograman: el núcleo viable se sostiene solo con el aporte semilla de FASA.</p>
+      <div class="table-wrap" id="financiamiento"></div>
+    </section>
+
+    <section aria-labelledby="h-det">
+      <h2 id="h-det">Detalle por acción</h2>
+      <details>
+        <summary>Ver las <span data-stat="acciones"></span> acciones con su costo por año</summary>
+        <div class="table-wrap" id="detalle" style="margin-top:.8rem"></div>
+      </details>
+      <p class="muted small" style="margin-top:1rem">Custodia del presupuesto: Antonio Tieppo (contador). Revisión legal de convenios y grants: Juan Inza (abogado).</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

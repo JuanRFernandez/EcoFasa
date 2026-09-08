@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — Tablero</title>
+<meta name="description" content="KPIs y estado del plan de sostenibilidad de FASA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="tablero">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Tablero</div>
+      <h1>Cómo vamos</h1>
+      <p class="lead"><span data-stat="kpis"></span> indicadores con línea base, meta y valor actual. Donde todavía no hay medición, se ve <span class="pending">[dato pendiente]</span>: preferimos el hueco al número inventado.</p>
+    </section>
+
+    <section aria-labelledby="h-graficos">
+      <h2 id="h-graficos">En un vistazo</h2>
+      <div class="charts">
+        <div class="chart" id="chartEstado"><h3>Acciones por estado</h3><canvas role="img" aria-label="Gráfico de acciones por estado; los valores están en la lista de abajo"></canvas><ul></ul></div>
+        <div class="chart" id="chartArea"><h3>Acciones por área</h3><canvas role="img" aria-label="Gráfico de acciones por área; los valores están en la lista de abajo"></canvas><ul></ul></div>
+        <div class="chart" id="chartAnio"><h3>Presupuesto por año (USD)</h3><canvas role="img" aria-label="Gráfico del presupuesto total por año; los valores están en la lista de abajo"></canvas><ul></ul></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-kpis">
+      <h2 id="h-kpis">Indicadores</h2>
+      <div class="table-wrap" id="kpis"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

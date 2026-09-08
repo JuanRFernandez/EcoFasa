@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — Acciones</title>
+<meta name="description" content="Todas las acciones del plan de sostenibilidad de FASA, con filtros por área, estado y responsable.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="acciones">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Acciones</div>
+      <h1>Una tarjeta por acción</h1>
+      <p class="lead">Filtrá por área, estado o responsable. Cada tarjeta muestra lo que dice el tracker hoy.</p>
+    </section>
+
+    <form class="filters" onsubmit="return false" aria-label="Filtros">
+      <label>Área <select id="fArea"><option value="">— todas las áreas —</option></select></label>
+      <label>Estado <select id="fEstado"><option value="">— cualquier estado —</option></select></label>
+      <label>Responsable <select id="fResp"><option value="">— cualquier responsable —</option></select></label>
+      <label>Buscar <input id="fBuscar" type="search" placeholder="ID, acción o KPI"></label>
+    </form>
+    <p class="count" id="fCount" aria-live="polite"></p>
+    <div class="grid" id="lista"></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

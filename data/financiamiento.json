@@ -1,0 +1,29 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "Presupuesto"
+ },
+ "count": 4,
+ "rows": [
+  {
+   "Categoría": "Grant WWF Forest Restoration",
+   "Qué financia / justificación": "Reforestación nativa 2028 (línea de hasta USD 15.000) · A11",
+   "Total (USD)": 5000
+  },
+  {
+   "Categoría": "Global Greengrants / TNC / Greenpeace",
+   "Qué financia / justificación": "Proyectos ambientales de pequeña escala · A10, A12, A33",
+   "Total (USD)": 3000
+  },
+  {
+   "Categoría": "Sponsors en especie (Patagonia, CHT, Montagne, TNF, centros)",
+   "Qué financia / justificación": "Reparación, equipo, sedes y datos — valor equivalente · A13–A15, A21, A23",
+   "Total (USD)": 4000
+  },
+  {
+   "Categoría": "Aporte neto FASA (5 años)",
+   "Qué financia / justificación": "Diferencia a cubrir con partidas anuales; la partida 2026 (fila TOTAL, col. 2026) es íntegra de FASA",
+   "Total (USD)": 7415
+  }
+ ]
+}

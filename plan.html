@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — El plan</title>
+<meta name="description" content="Las áreas estratégicas y las acciones del plan de sostenibilidad de FASA, con su hoja de ruta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="plan">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">El plan <span data-stat="periodo"></span></div>
+      <h1><span data-stat="areas"></span> áreas, <span data-stat="acciones"></span> acciones</h1>
+      <p class="lead">Cada acción tiene responsable, esfuerzo, plazo y KPI. Las marcadas con ★ forman el núcleo viable (<span data-stat="nucleo"></span> acciones): lo prioritario para arrancar ya, con pocas personas y poco presupuesto.</p>
+      <p class="small muted">Esfuerzo: 🟢 bajo · 🟡 medio · 🔴 alto. Estado y plazo salen del tracker vivo.</p>
+    </section>
+
+    <div id="plan"></div>
+
+    <section aria-labelledby="h-ruta">
+      <div class="eyebrow">Hoja de ruta</div>
+      <h2 id="h-ruta">Un hito por año</h2>
+      <div class="table-wrap" id="ruta"></div>
+    </section>
+
+    <section>
+      <p><a class="btn primary" href="acciones.html">Ver las acciones con filtros</a></p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

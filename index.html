@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — Proteger nuestra nieve</title>
+<meta name="description" content="Plan de sostenibilidad de la Federación Argentina de Ski y Andinismo: medir la huella, reducirla y usar la voz del deporte de montaña.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="home">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Plan de sostenibilidad <span data-stat="periodo"></span></div>
+      <h1>Proteger nuestra nieve.</h1>
+      <p class="lead">La Federación Argentina de Ski y Andinismo tiene un plan: medir su huella, reducirla y usar la voz del deporte de montaña para cuidar el lugar donde lo practicamos.</p>
+      <div class="actions">
+        <a class="btn primary" href="plan.html">Ver el plan</a>
+        <a class="btn ghost" href="recursos.html">Copiá el plan</a>
+      </div>
+      <div class="stats" aria-label="Cifras del plan">
+        <div class="stat"><div class="n" data-stat="acciones"></div><div class="l">acciones concretas, cada una con responsable, plazo y KPI</div></div>
+        <div class="stat"><div class="n" data-stat="partida2026"></div><div class="l">partida semilla <span data-stat="anio0"></span>, con contingencia incluida</div></div>
+        <div class="stat"><div class="n" data-stat="costo_cero"></div><div class="l">acciones a costo cero: se hacen con herramientas gratuitas y tiempo del comité</div></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-porque">
+      <div class="eyebrow">El porqué</div>
+      <h2 id="h-porque">No es el futuro. Está pasando.</h2>
+      <p class="lead">Datos con fuente, tomados del tracker del plan.</p>
+      <div class="grid" id="porque"></div>
+    </section>
+
+    <section aria-labelledby="h-areas">
+      <div class="eyebrow">Qué hacemos</div>
+      <h2 id="h-areas"><span data-stat="areas"></span> áreas estratégicas</h2>
+      <p class="lead">Cada área agrupa acciones. Las del núcleo viable (★) son las prioritarias para arrancar ya, con pocas personas y poco presupuesto; el resto depende de fondos y aliados.</p>
+      <div class="grid" id="areas"></div>
+    </section>
+
+    <section aria-labelledby="h-como">
+      <div class="eyebrow">Cómo funciona</div>
+      <h2 id="h-como">Un plan que se ve</h2>
+      <div class="grid">
+        <div class="card"><h3>Un solo tracker vivo</h3><p class="meta">El plan vive en una hoja de cálculo compartida. No hay versiones sueltas: lo que cambia queda registrado.</p></div>
+        <div class="card"><h3>Todo con dueño</h3><p class="meta">Cada acción tiene responsable, esfuerzo, plazo, KPI y costo. Si un dato falta, se dice: <span class="pending">[dato pendiente]</span>.</p></div>
+        <div class="card"><h3>Este sitio se regenera</h3><p class="meta">Ningún número está escrito a mano acá: todo sale del tracker y se actualiza con un comando.</p></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-open">
+      <h2 id="h-open">¿Sos de otra federación o club?</h2>
+      <p>El plan es abierto (licencia CC BY 4.0): copialo, adaptalo y contanos. <a href="open-plan.html" lang="en">Read the open plan in English</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

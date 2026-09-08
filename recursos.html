@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECOFASA — Recursos</title>
+<meta name="description" content="Copiá el plan de sostenibilidad de FASA: plantilla del tracker, presupuesto, guías y datos abiertos con licencia CC BY 4.0.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Hanken+Grotesk:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="recursos">
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">ECOFASA <small>Comité de sostenibilidad · FASA</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a><a href="plan.html">Plan</a><a href="acciones.html">Acciones</a><a href="tablero.html">Tablero</a>
+      <a href="presupuesto.html">Presupuesto</a><a href="recursos.html">Recursos</a><a href="equipo.html">Equipo</a><a href="open-plan.html" lang="en">Open plan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Recursos</div>
+      <h1>Copiá el plan</h1>
+      <p class="lead">Todo lo que armamos es abierto. Si sirve para tu club, tu federación o tu centro, usalo.</p>
+    </section>
+
+    <section aria-labelledby="h-copiar">
+      <h2 id="h-copiar">Para arrancar</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Plantilla del tracker</h3>
+          <p class="meta">Hoja de cálculo con las <span data-stat="areas"></span> áreas, las <span data-stat="acciones"></span> acciones, los KPIs y el presupuesto. Se abre en modo «hacé una copia» para que no pises el original.</p>
+          <div class="src"><span class="pending">[dato pendiente: link a la plantilla pública del Sheet]</span></div>
+        </div>
+        <div class="card">
+          <h3>Presupuesto <span data-stat="periodo"></span></h3>
+          <p class="meta">El documento completo, con supuestos de costo, categorías y financiamiento previsto.</p>
+          <div class="src"><span class="pending">[dato pendiente: link público al PDF del presupuesto]</span></div>
+        </div>
+        <div class="card">
+          <h3>Guías que usamos</h3>
+          <p class="meta">Guía de sostenibilidad para centros de esquí (FIS) · curso gratuito UN CC:Learn «Sports for Climate Action» · calculadora de CO₂ de FIS para federaciones.</p>
+          <div class="src"><span class="pending">[dato pendiente: links oficiales]</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-datos">
+      <h2 id="h-datos">Datos abiertos de este sitio</h2>
+      <p>Los mismos archivos que alimentan estas páginas, generados desde el tracker el <span data-generated></span>:</p>
+      <ul>
+        <li><a href="data/acciones.json">acciones.json</a> — las acciones con área, esfuerzo, plazo, estado, KPI y costo.</li>
+        <li><a href="data/kpis.json">kpis.json</a> — indicadores con línea base, metas y valor actual.</li>
+        <li><a href="data/presupuesto.json">presupuesto.json</a>, <a href="data/presupuesto_categorias.json">presupuesto_categorias.json</a>, <a href="data/presupuesto_resumen.json">presupuesto_resumen.json</a>, <a href="data/financiamiento.json">financiamiento.json</a> — presupuesto por acción, por categoría, totales y financiamiento.</li>
+        <li><a href="data/hoja_de_ruta.json">hoja_de_ruta.json</a> — un hito por año.</li>
+        <li><a href="data/porque.json">porque.json</a> — los datos del «porqué», con fuente.</li>
+      </ul>
+      <p class="muted small">No publicamos datos de contacto de clubes ni las notas internas del comité.</p>
+    </section>
+
+    <section aria-labelledby="h-lic">
+      <h2 id="h-lic">Licencia</h2>
+      <p>Plan, textos y datos: <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">Creative Commons Atribución 4.0 (CC BY 4.0)</a>. Podés copiar, adaptar y redistribuir citando a ECOFASA / FASA.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>ECOFASA · Federación Argentina de Ski y Andinismo · <a href="https://creativecommons.org/licenses/by/4.0/deed.es" rel="license">CC BY 4.0</a></span>
+    <span>Datos del tracker generados el <span data-generated></span></span>
+  </div>
+</footer>
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

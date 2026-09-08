@@ -1,0 +1,39 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "El Porqué"
+ },
+ "count": 5,
+ "rows": [
+  {
+   "Dato": "Adelgazamiento de glaciares andinos",
+   "Valor": "0,7 m/año",
+   "Detalle": "35% más rápido que el promedio global (−0,46 m/año); en Patagonia supera 1 m/año",
+   "Fuente": "Deplete & Retreat / UNESCO 2025 (Univ. Sheffield y Newcastle)"
+  },
+  {
+   "Dato": "Caída de cobertura de nieve, Andes 27–36°S",
+   "Valor": "−19% por década",
+   "Detalle": "Datos MODIS 2001–2022; hasta ~40%/década en primavera en cuencas como Aconcagua",
+   "Fuente": "Cordero et al. (2024), Scientific Reports"
+  },
+  {
+   "Dato": "Suba proyectada de la línea de nieve (Andes centrales)",
+   "Valor": "+600 m",
+   "Detalle": "RCP8.5 hacia 2071–2100 (~+420 m en RCP4.5; hasta ~1.000 m en días de precipitación)",
+   "Fuente": "Mardones & Garreaud (2020), Atmosphere 11(11)"
+  },
+  {
+   "Dato": "Personas en cuencas alimentadas por glaciares",
+   "Valor": "7 millones (~18% de Argentina)",
+   "Detalle": "Inventario Nacional de Glaciares: 16.968 cuerpos de hielo / 8.484 km²",
+   "Fuente": "IANIGLA-CONICET (2018)"
+  },
+  {
+   "Dato": "Temporada 2025 de La Hoya (Esquel)",
+   "Valor": "Cierre 10-ago-2025",
+   "Detalle": "vs. 30-sep-2024, por falta de nieve. En el Catedral, sin innivación artificial no hubiese habido temporada (SMN)",
+   "Fuente": "Infobae / Greenpeace Argentina / SMN"
+  }
+ ]
+}

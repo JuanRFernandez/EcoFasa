@@ -1,0 +1,49 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "Hoja de Ruta"
+ },
+ "count": 5,
+ "rows": [
+  {
+   "Año": "2026",
+   "Hito principal": "Línea de base y arranque",
+   "Entregables clave": "ECO-FASA constituido · inventario de huella base · 1er webinar · compromiso climático · calendario optimizado · prueba piloto con clubes (carpooling, reuso) · 1er reporte anual",
+   "Área(s)": "Todas",
+   "Responsable": "ECO-FASA",
+   "Estado": "No iniciado"
+  },
+  {
+   "Año": "2027",
+   "Hito principal": "Sistematización",
+   "Entregables clave": "Plan de Reducción de Carbono con metas · Guía de Centros de Esquí publicada · HPCA piloto · 3+ clubes con acciones · reporte #2",
+   "Área(s)": "1,2,6,7",
+   "Responsable": "ECO-FASA",
+   "Estado": "No iniciado"
+  },
+  {
+   "Año": "2028",
+   "Hito principal": "Escalado",
+   "Entregables clave": "Red de reuso/reparación · reforestación nativa · proyecto de glaciares con IANIGLA · medición de reducción vs base · reporte #3",
+   "Área(s)": "2,3,5",
+   "Responsable": "ECO-FASA",
+   "Estado": "No iniciado"
+  },
+  {
+   "Año": "2029",
+   "Hito principal": "Consolidación",
+   "Entregables clave": "Mayoría de clubes con plan propio · eventos con residuos cero · programa de inclusión activo · reporte #4",
+   "Área(s)": "3,5,6",
+   "Responsable": "ECO-FASA",
+   "Estado": "No iniciado"
+  },
+  {
+   "Año": "2030",
+   "Hito principal": "Rendición de cuentas",
+   "Entregables clave": "Evaluación vs meta −50% · transparencia plena · FASA referente regional · reporte #5",
+   "Área(s)": "6,7",
+   "Responsable": "ECO-FASA",
+   "Estado": "No iniciado"
+  }
+ ]
+}

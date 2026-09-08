@@ -1,0 +1,141 @@
+{
+ "generated_at_utc": "2026-09-08T13:56:44+00:00",
+ "source": {
+  "tab": "KPIs"
+ },
+ "count": 12,
+ "rows": [
+  {
+   "KPI": "Huella de carbono total",
+   "Definición": "Emisiones GEI de FASA (Alcances 1/2/3)",
+   "Unidad": "t CO₂e",
+   "Línea base (2026)": "[cargar]",
+   "Meta 2026": "medir",
+   "Meta 2030": "−50% vs base",
+   "Valor actual": "[cargar]",
+   "Responsable": "Juan R. Fernández",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "% de clubes con ≥1 acción de sostenibilidad",
+   "Definición": "Clubes activos con al menos una acción",
+   "Unidad": "%",
+   "Línea base (2026)": "[cargar]",
+   "Meta 2026": "30%",
+   "Meta 2030": "80%",
+   "Valor actual": "[cargar]",
+   "Responsable": "Antonio Tieppo",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Webinars / charlas realizadas",
+   "Definición": "Actividades educativas dictadas",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "3",
+   "Meta 2030": "3+/año",
+   "Valor actual": "[cargar]",
+   "Responsable": "Augusto Capone",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Asistentes a actividades educativas",
+   "Definición": "Personas alcanzadas en charlas/webinars",
+   "Unidad": "personas",
+   "Línea base (2026)": "0",
+   "Meta 2026": "200",
+   "Meta 2030": "200+/año",
+   "Valor actual": "[cargar]",
+   "Responsable": "Augusto Capone",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Equipos reusados / reparados",
+   "Definición": "Ítems de equipo que evitan recambio",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "50",
+   "Meta 2030": "acumulado",
+   "Valor actual": "[cargar]",
+   "Responsable": "Antonio Tieppo",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Residuos desviados en eventos",
+   "Definición": "Residuos reciclados/compostados",
+   "Unidad": "kg",
+   "Línea base (2026)": "[cargar]",
+   "Meta 2026": "medir",
+   "Meta 2030": "↑",
+   "Valor actual": "[cargar]",
+   "Responsable": "Juan R. Fernández",
+   "Frecuencia": "Por evento"
+  },
+  {
+   "KPI": "Árboles nativos plantados",
+   "Definición": "Reforestación con especies nativas",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "—",
+   "Meta 2030": "acumulado",
+   "Valor actual": "[cargar]",
+   "Responsable": "Antonio Tieppo",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Reducción de km / viajes compartidos",
+   "Definición": "Carpooling y optimización de calendario",
+   "Unidad": "% / nº",
+   "Línea base (2026)": "[cargar]",
+   "Meta 2026": "medir",
+   "Meta 2030": "↓",
+   "Valor actual": "[cargar]",
+   "Responsable": "Antonio Tieppo",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Sponsors / aliados activos",
+   "Definición": "Organizaciones que aportan",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "2",
+   "Meta 2030": "↑",
+   "Valor actual": "[cargar]",
+   "Responsable": "Juan Inza",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Fondos movilizados",
+   "Definición": "Recursos económicos / en especie",
+   "Unidad": "ARS / USD",
+   "Línea base (2026)": "0",
+   "Meta 2026": "—",
+   "Meta 2030": "↑",
+   "Valor actual": "[cargar]",
+   "Responsable": "Juan Inza",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Reportes anuales publicados",
+   "Definición": "Transparencia (marco UNFCCC)",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "1",
+   "Meta 2030": "5",
+   "Valor actual": "[cargar]",
+   "Responsable": "Augusto Capone",
+   "Frecuencia": "Anual"
+  },
+  {
+   "KPI": "Estudiantes / PPS involucrados",
+   "Definición": "Talento universitario sumado al proyecto",
+   "Unidad": "nº",
+   "Línea base (2026)": "0",
+   "Meta 2026": "1",
+   "Meta 2030": "acumulado",
+   "Valor actual": "[cargar]",
+   "Responsable": "Juan R. Fernández",
+   "Frecuencia": "Anual"
+  }
+ ]
+}
