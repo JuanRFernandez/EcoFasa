@@ -1,12 +1,12 @@
 // Generado por `uv run ecofasa export`. No editar a mano.
 window.ECOFASA_DATA = {
- "generated_at_utc": "2026-09-09T10:16:11+00:00",
+ "generated_at_utc": "2026-09-09T16:12:52+00:00",
  "links": {
   "presupuesto_pdf": "docs/Presupuesto_ECOFASA_20262030_v6.pdf",
   "template": "https://docs.google.com/spreadsheets/d/1t-qFlyYk1G-lqUGgQ0kUO-TCqmOk_OgxB81o-JUKNvY/copy"
  },
  "acciones": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Plan de Acción"
   },
@@ -444,7 +444,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "kpis": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "KPIs"
   },
@@ -585,7 +585,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Presupuesto Detalle"
   },
@@ -1089,7 +1089,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "hoja_de_ruta": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Hoja de Ruta"
   },
@@ -1138,7 +1138,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto_categorias": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Presupuesto"
   },
@@ -1301,7 +1301,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "financiamiento": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Presupuesto"
   },
@@ -1330,7 +1330,7 @@ window.ECOFASA_DATA = {
   ]
  },
  "presupuesto_resumen": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "Presupuesto"
   },
@@ -1358,7 +1358,7 @@ window.ECOFASA_DATA = {
   }
  },
  "porque": {
-  "generated_at_utc": "2026-09-09T10:16:11+00:00",
+  "generated_at_utc": "2026-09-09T16:12:52+00:00",
   "source": {
    "tab": "El Porqué"
   },
