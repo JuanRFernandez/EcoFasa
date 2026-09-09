@@ -96,6 +96,14 @@
     $$('[data-generated]').forEach(function (e) {
       e.textContent = D && D.generated_at_utc ? String(D.generated_at_utc).slice(0, 10) : PEND;
     });
+    // Links que no salen del tracker (plantilla, PDF, guias): vienen de la config via export; sin link queda el pendiente.
+    var links = (D && D.links) || {};
+    $$('[data-link]').forEach(function (e) {
+      var url = links[e.getAttribute('data-link')];
+      if (!url) return;
+      var a = h('a', { href: url, target: '_blank', rel: 'noopener' }, e.getAttribute('data-link-text') || url);
+      e.parentNode.replaceChild(a, e);
+    });
   }
 
   function badge(text, kind) { return h('span', { class: 'badge ' + (kind || '') }, text); }
